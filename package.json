@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://yefalek.github.io/goit-js-hw-11-color-switch",
+  "homepage": "https://yefalek.github.io/goit-js-hw-11-promisification",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11-color-switch/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-promisification/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yefalek/goit-js-hw-11-color-switch.git"
+    "url": "git+https://github.com/yefalek/goit-js-hw-11-promisification.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
