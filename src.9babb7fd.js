@@ -3,8 +3,8 @@ const e=e=>new Promise((o,t)=>{setTimeout(()=>{o(e)},e)}),o=e=>console.log(`Reso
 },{}],"Oolp":[function(require,module,exports) {
 const a=[{name:"Mango",active:!0},{name:"Poly",active:!1},{name:"Ajax",active:!0},{name:"Lux",active:!1}],e=(a,e)=>Promise.all(a.map(a=>a.name===e?{...a,active:!a.active}:a)),n=a=>console.table(a);e(a,"Mango").then(n),e(a,"Lux").then(n);
 },{}],"G5Bb":[function(require,module,exports) {
-
+const t=(t,a)=>Math.floor(Math.random()*(a-t+1)+t),a=(a,n,o)=>{const c=t(200,500);setTimeout(()=>{Math.random()>.3?n(a.id,c):o(a.id)},c)},n=(t,a)=>{console.log(`Transaction ${t} processed in ${a}ms`)},o=t=>{console.warn(`Error processing transaction ${t}. Please try again later.`)};a({id:70,amount:150},n,o),a({id:71,amount:230},n,o),a({id:72,amount:75},n,o),a({id:73,amount:100},n,o),a({id:70,amount:150}).then(n).catch(o),a({id:71,amount:230}).then(n).catch(o),a({id:72,amount:75}).then(n).catch(o),a({id:73,amount:100}).then(n).catch(o);
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./partials/part1"),require("./partials/part2"),require("./partials/part3");
 },{"./partials/part1":"rQfx","./partials/part2":"Oolp","./partials/part3":"G5Bb"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-promisification/src.1349bfa6.js.map
+//# sourceMappingURL=/goit-js-hw-11-promisification/src.9babb7fd.js.map
