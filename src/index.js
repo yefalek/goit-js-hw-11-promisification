@@ -32,4 +32,5 @@ start.addEventListener('click', changeBgColor);
 stop.addEventListener('click', () => {
     clearInterval(timer);
     start.disabled = false;
+    document.body.style.backgroundColor = colors[0];
 });
